@@ -1,5 +1,7 @@
-# Python Project: Full Data Analysis Lifecycle
+ 
+![Python Lifecycle Visual](Snips/profile.png)
 
+ 
 ## Overview
 This repository demonstrates the complete data analysis lifecycle using Python.  
 The project covers data collection, cleaning, exploratory analysis, machine learning, and reporting.
