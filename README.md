@@ -36,6 +36,33 @@ Names are more than labels — they reflect culture, identity, and social change
 - Insights into societal shifts (e.g., gender‑neutral naming).
 - Engaging visualizations that make the analysis accessible to all audiences.
 
+
+
+
+## Repository Structure
+
+📂 us-baby-names-analysis  
+│  
+├── 📁 data  
+│   └── raw/ → Original dataset (CSV)  
+│   └── processed/ → Cleaned and aggregated data (decade, gender, state)  
+│  
+├── 📁 notebooks  
+│   └── eda.ipynb → Exploratory Data Analysis (popular names, jumps/drops, gender differences)  
+│   └── visualization.ipynb → Trend charts, heatmaps, word clouds  
+│   └── forecasting.ipynb → Predictive modeling for future name popularity  
+│  
+├── 📁 visuals  
+│   └── charts/ → Line charts, heatmaps, bar plots  
+│   └── wordclouds/ → Word clouds of popular names per decade  
+│  
+├── 📁 docs  
+│   └── dataset_story.md → Narrative introduction (Dataset Story section)  
+│   └── analysis_report.md → Final written report with insights and impact  
+│  
+└── README.md → Project overview, Dataset Story, workflow, and results
+
+
 ## Tools We’ll Use
 - **Python (pandas, NumPy)** for data cleaning and analysis.
 - **Matplotlib/Seaborn/Plotly** for visualizations.
