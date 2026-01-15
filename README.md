@@ -1,6 +1,6 @@
-# U.S. Baby Names (1980s–2010s)
+# Dataset Story: U.S. Baby Names (1980s–2010s)
 
-## Why This Dataset
+## Why We Chose This Dataset
 Names are more than labels — they reflect culture, identity, and social change. This dataset contains **2.2 million records** from U.S. Social Security card applications over three decades, broken down by state, gender, year, and name. Its cultural relevance and approachable nature make it perfect for Python‑based exploratory analysis and storytelling.
 
 ## What Makes It Special
@@ -16,10 +16,19 @@ Names are more than labels — they reflect culture, identity, and social change
 - The rise of gender‑neutral names and evolving cultural preferences.
 
 ## Planned Actions
-1. **Data Cleaning**: Normalize state codes, gender labels, and handle missing values.
-2. **Exploratory Analysis**: Identify top names by decade, gender, and region.
-3. **Visualization**: Create line charts, heatmaps, and word clouds to illustrate trends.
-4. **Advanced Analysis**: Forecast future name popularity and detect cultural spikes.
+1. **Data Cleaning**
+   - Normalize state codes, gender labels, and handle missing values.
+   - Aggregate counts by decade, gender, and state.
+2. **Exploratory Analysis**
+   - Identify top names by decade, gender, and region.
+   - Detect names with sharp rises or declines in popularity.
+3. **Visualization**
+   - Line charts for name popularity over time.
+   - Heatmaps for state‑wise trends.
+   - Word clouds for most popular names per decade.
+4. **Advanced Analysis**
+   - Forecast future name popularity using time series models.
+   - Detect cultural spikes linked to events or celebrities.
 
 ## Expected Results
 - A clear picture of naming trends across decades.
